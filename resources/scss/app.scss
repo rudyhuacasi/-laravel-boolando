@@ -1,5 +1,79 @@
 @import "~bootstrap/scss/bootstrap";
 
-body {
+
+header{
+    background-color: #fd7200;
+}
+.icona{
+    i{
+        padding: 0 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+.content{
+    position: relative;
+}
+.content:hover .prodotti {
+    display: none;
+}
+
+.content:hover .hover-image {
+    display: block;
+}
+
+.hover-image {
+    display: none;
+    width: 380px;
+    position: relative;
+    margin-right: 20px;
+}
+
+
+.cuore {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: 28px;
+    padding: 5px 10px;
+}
+
+.col {
+    color: white;
+}
+
+.red {
+   padding: 5px 6px;
+    position: absolute;
+    bottom: 28%;
     background-color: red;
+
+}
+
+.green {
+   padding: 5px 6px;
+    position: absolute;
+    bottom: 28%;
+    background-color: green;
+}
+
+.right-1 {
+    left: 30%;
+}
+
+.piccolo {
+    font-size: 10px;
+}
+
+.testo {
+    font-size: 10px;
+}
+
+.numeri {
+    color: red;
+    font-size: 12px;
+}
+
+.real{
+    position: relative;
 }
